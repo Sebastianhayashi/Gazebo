@@ -27,9 +27,9 @@
 2. ign-cmake(BFS)
 3. gz-math6(BFS)
 4. sdformat9(BFS)
-4.1 boost-devel(yum)
-4.2 tinyxml2(yum)
-4.3 rubygem-rexml(yum)
+    4.1 boost-devel(yum)
+    4.2 tinyxml2(yum)
+    4.3 rubygem-rexml(yum)
 5. freeimage-devel(yum)
 6. libtar-devel(BFS)
 7. ogre3d-devel(BFS)
@@ -38,10 +38,10 @@
 10. ign-transport8(BFS)
 11. ign-common(BFS)
 12. gz-math4(BFS)
-12.1 ign-cmake0(BFS)
+    12.1 ign-cmake0(BFS)
 13. ign-fuel-tools(BFS)
-13.1 jsoncpp-devel(yum)
-13.2 libzip-devel(yum)
+    13.1 jsoncpp-devel(yum)
+    13.2 libzip-devel(yum)
 
 ### export 指向
 
