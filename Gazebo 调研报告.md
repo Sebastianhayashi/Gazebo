@@ -6,13 +6,13 @@
 目前在 openeuler 24.03 x86 上从源码编译 Gazebo 遇到了如下问题：
 
 - 大部分的包都能被 yum 找到或者通过源码编译，但是无法通过 yum 找到 qt-devel，如果尝试从源码编译，使用 yum 安装的 qt-base 不包括 qmake，无法从源码编译。
-- 缺包 libqwt-dev
+- 缺包 **libqwt-dev**
 
 如下图：
 
 ![alt text](./img/lack-of-libqwt-dev.png)
 
-- 在从源码编译到正确 `sudo make install` 并且使用 `export` 指令正确指向的情况下，无法识别到 libignition-common3-dev。
+- 在从源码编译到正确 `sudo make install` 并且使用 `export` 指令正确指向的情况下，无法识别到 **libignition-common3-dev**。
 
 
 ![alt text](./img/lack-of-libignition-common3-dev.png)
