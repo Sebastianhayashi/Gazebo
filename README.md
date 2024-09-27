@@ -5,6 +5,7 @@ Gazebo 仿真软件在 openEuler 社区的测试和维护：
 
 ## 目前进度
 
-查看：该[文档](https://github.com/Sebastianhayashi/Gazebo/blob/main/Gazebo%20%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.md)
+目前 Gazebo 在 openEuler 24.03 上成功编译，但是由于缺少 `zink` 库所以无法正常打开。
 
-下一步计划：将文档中的库的问题解决。
+## Gazebo 调研报告
+
