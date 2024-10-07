@@ -37,13 +37,11 @@ sudo yum install <dep>
 | ignition-msgs    | 5          | ros-humble-gazebo-msgs.x86_64                | unknown |
 | ignition-transport | 8        | x                                            | x     |
 
-链接补充
 
 ## 编译依赖
 
-### 1 Ignition common3（BFS）
+### Ignition common3
 
-gz-4
 
 以下是该依赖的关系图：
 
@@ -69,7 +67,7 @@ gz-4
 - libavcodec
 - libavutil
 
-2. FreeImage 虽然 yum 可以直接安装，但是版本不符合，需要手动编译：
+1. FreeImage 虽然 yum 可以直接安装，但是版本不符合，需要手动编译：
 
 [FreeImage 下载](https://sourceforge.net/projects/freeimage/files/Source%20Distribution/3.18.0/FreeImage3180.zip/download?use_mirror=nchc)
 
@@ -109,7 +107,7 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
 ```
 
 
-### SDFormat（BFS）last
+### SDFormat
 
 最后编译
 
@@ -143,9 +141,8 @@ git clone https://github.com/gazebosim/sdformat -b sdf9
     - ruby
     - tinyxml2
 
-### Ignition Math 6
+### Ignition Math 6 
 
-gz-1
 
 依赖如下：
 - swig -> yum
@@ -156,7 +153,6 @@ https://github.com/gazebosim/gz-math.git
 
 ### Ignition transport 8
 
-after msgs5
 
 依赖如下：
 
@@ -167,9 +163,8 @@ after msgs5
 - cppzmq-devel -> yum
 
 
-### Ignition msgs 5
+### Ignition msgs 5 
 
-gz-2
 
 依赖如下：
 
@@ -191,7 +186,7 @@ https://github.com/gazebosim/gz-msgs.git -b ign-msgs5
 
 
 
-### OGRE（BFS）first
+### OGRE（BFS）
 
 版本：1.10
 
@@ -254,7 +249,7 @@ https://github.com/gazebosim/gz-tools.git -b ign-tools0
 sudo yum install qt* -y
 ```
 
-### qwt（BFS）
+### qwt
 
 版本：[6.3.0](https://sourceforge.net/projects/qwt/files/latest/download)
 
